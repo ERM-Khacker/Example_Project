@@ -1,0 +1,85 @@
+.mobileNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 25px 17px 5px;
+}
+
+.contentLogo {
+  padding-left: 50px;
+}
+
+.logoLink {
+  max-width: 100%;
+  width: 600px;
+}
+.logo {
+  width: inherit;
+  object-fit: contain;
+  object-position: center;
+}
+
+.menuBtn {
+  margin: 70px 140px;
+  width: 40px;
+}
+
+.btn {
+  cursor: pointer;
+  width: 100px;
+  margin-left: 14px;
+}
+
+@media screen and (max-width: 576px) {
+  .mobileNavbar {
+    padding: 20px 35px 20px 10px;
+  }
+
+  .contentLogo {
+    padding-left: 0;
+  }
+
+  .logoLink {
+    width: 250px;
+    margin-left: 0;
+  }
+
+  .menuBtn {
+    margin-top: 40px;
+    margin-right: 50px;
+  }
+  .btn {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobileNavbar {
+  padding-top: 10px;
+  }
+  .contentLogo {
+    padding-left: 0;
+  }
+  .logoLink {
+    width: 300px;
+  }
+  .btn {
+    width: 70px;
+  }
+  .menuBtn {
+    margin-top: 40px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .contentLogo {
+    padding-left: 0;
+  }
+  .menuBtn {
+    margin-right: 60px;
+  }
+  .logoLink {
+    width: 400px;
+  }
+}
